@@ -1,0 +1,10 @@
+MOUSEKEY_ENABLE  = yes    # Mouse keys
+RGBLIGHT_ENABLE  = no     # Enable WS2812 RGB underlight.
+# SRC = matrix.c
+RGB_MATRIX_ENABLE = yes
+# RGB_MATRIX_DRIVER = IS31FL3731
+BACKLIGHT_ENABLE = no
+# BACKLIGHT_DRIVER = software
+OLED_ENABLE      = no
+OLED_DRIVER      = SSD1306
+LTO_ENABLE       = yes
