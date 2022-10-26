@@ -1,3 +1,6 @@
+# my secret files
+custom_keycodes.c
+
 # Junk files
 *.bak
 *.swp
