@@ -1,6 +1,6 @@
 #ifdef RGB_MATRIX_ENABLE
 // Sets the default values for the RGB LEDs.
-uint8_t prev = _QWERTY_W;
+uint8_t prev = _QWE_M;
 uint32_t desiredmode = 33;
 uint16_t hue = 120;
 uint16_t sat = 255;
@@ -23,13 +23,13 @@ void matrix_init_user() {
 // Section to change RGB LED colours and animation when activating layer 1 and 2, and then go back to the default, which I can change on the fly.
   uint32_t layer_state_set_user(uint32_t state) {
   uint8_t layer = biton32(state);
-  if (prev!=_LIGTHS) {
+  if (prev!=_LIGTH) {
       switch (layer) {
-        case _QWERTY_M:
+        case _QWE_M:
           rgblight_mode_noeeprom(desiredmode);
           reset_hsv();
           break;
-        case _QWERTY_W:
+        case _QWE_W:
           rgblight_mode_noeeprom(desiredmode);
           reset_hsv();
           break;
@@ -37,19 +37,19 @@ void matrix_init_user() {
           rgblight_mode_noeeprom(0);
           rgblight_sethsv(HSV_BLUE);
           break;
-        case _SYMBOLS_M:
+        case _SY1_M:
           rgblight_mode_noeeprom(0);
           rgblight_sethsv(HSV_ORANGE);
           break;
-        case _SYMBOLS_W:
+        case _SY1_W:
           rgblight_mode_noeeprom(0);
           rgblight_sethsv(HSV_ORANGE);
           break;
-        case _NUMBERS:
+        case _NUMBR:
           rgblight_mode_noeeprom(0);
           rgblight_sethsv(HSV_GREEN);
           break;  
-        case _LIGTHS:
+        case _LIGTH:
           rgblight_mode_noeeprom(desiredmode);
           reset_hsv();
           break;
