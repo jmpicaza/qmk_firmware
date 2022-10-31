@@ -79,25 +79,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [_SY1_M] = LAYOUT_ortho_4x12(
    _______,  KC_ESC,                 LALT_T(ES_AND),LCTL_T(ES_INTERR_C),LGUI_T(ES_BRAQUE_A), ES_SUMA,   /**/  ES_PRIMERO_M,LGUI_T(KC_RGUI), LCTL_T(KC_RCTL), LALT_T(ES_PUNTOALTO), LGUI(ES_MENOR_M),     _______,
-   _______,  KC_TAB,                 ES_FSLASH,     ES_COMILLAS_D,      ES_PARENT_A,         ES_RESTA,  /**/  ES_ARROBA,   ES_ALMOHAD,      ES_DOLAR,        ES_PORCENT,           ES_TILDE_F,           _______,
+   _______,  KC_TAB,                 ES_FSLASH,     ES_COMILLA_S,      ES_PARENT_A,         ES_RESTA,  /**/  ES_ARROBA,   ES_ALMOHAD,      ES_DOLAR,        ES_PORCENT,           ES_TILDE_F,           _______,
    _______,  LT(_SY2_M,ES_GORRO_N_M),ES_ASTERIS,    ES_EXCLAM_C,        ES_LLAVES_A,         XXXXXXX,   /**/  XXXXXXX,     XXXXXXX,         ES_MENOR_M,      ES_MAYOR_M,           LT(_SY2_M,ES_CEDILLA),_______,
    _______,  _______,                _______,       _______,            LT(_SY2_M,ES_IGUAL), ES_DOSPUNT,/**/  XXXXXXX,     XXXXXXX,         XXXXXXX,         XXXXXXX,              XXXXXXX,              XXXXXXX
   ),
   [_SY2_M] = LAYOUT_ortho_4x12(
    _______,  XXXXXXX,    LALT_T(ES_OR),LCTL_T(ES_INTERR_A), LGUI(ES_BRAQUE_C), XXXXXXX,   /**/  S(ES_PRIMERO_M),KC_RGUI, KC_RCTL, KC_RALT, XXXXXXX,       _______,
-   _______,  S(KC_TAB),  ES_BSLASH_M,  ES_COMILLA_S,        ES_PARENT_C,       ES_GUION_B,/**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, ES_TILDE_B,    _______,
+   _______,  S(KC_TAB),  ES_BSLASH_M,  ES_COMILLAS_D,        ES_PARENT_C,       ES_GUION_B,/**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, ES_TILDE_B,    _______,
    _______,  ES_CAPUCHON,ES_SUMA,      ES_EXCLAM_A,         ES_LLAVES_C,       XXXXXXX,   /**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, S(ES_CEDILLA), _______,
    _______,  _______,    _______,      _______,             XXXXXXX,           XXXXXXX,   /**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,       XXXXXXX
   ),
   [_SY1_W] = LAYOUT_ortho_4x12(
    _______,  KC_ESC,                 LALT_T(ES_AND),LCTL_T(ES_INTERR_C),LGUI_T(ES_BRAQUE_A), ES_SUMA,   /**/  ES_PRIMERO_W,LGUI_T(KC_RGUI),LCTL_T(KC_RCTL), LALT_T(ES_PUNTOALTO), LGUI(ES_MENOR_W),     _______,
-   _______,  KC_TAB,                 ES_FSLASH,     ES_COMILLAS_D,      ES_PARENT_A,         ES_RESTA,  /**/  ES_ARROBA,   ES_ALMOHAD,     ES_DOLAR,        ES_PORCENT,           ES_TILDE_F,           _______,
+   _______,  KC_TAB,                 ES_FSLASH,     ES_COMILLA_S,      ES_PARENT_A,         ES_RESTA,  /**/  ES_ARROBA,   ES_ALMOHAD,     ES_DOLAR,        ES_PORCENT,           ES_TILDE_F,           _______,
    _______,  LT(_SY2_W,ES_GORRO_N_W),ES_ASTERIS,    ES_EXCLAM_C,        ES_LLAVES_A,         XXXXXXX,   /**/  XXXXXXX,     XXXXXXX,        ES_MENOR_W,      ES_MAYOR_W,           LT(_SY2_W,ES_CEDILLA),_______,
    _______,  _______,                _______,       _______,            LT(_SY2_W,ES_IGUAL), ES_DOSPUNT,/**/  XXXXXXX,     XXXXXXX,        XXXXXXX,         XXXXXXX,              XXXXXXX,              XXXXXXX
   ),
   [_SY2_W] = LAYOUT_ortho_4x12(
    _______,  XXXXXXX,    LALT_T(ES_OR),LCTL_T(ES_INTERR_A), LGUI(ES_BRAQUE_C), XXXXXXX,   /**/  S(ES_PRIMERO_W),KC_RGUI, KC_RCTL, KC_RALT, XXXXXXX,       _______,
-   _______,  S(KC_TAB),  ES_BSLASH_W,  ES_COMILLA_S,        ES_PARENT_C,       ES_GUION_B,/**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, ES_TILDE_B,    _______,
+   _______,  S(KC_TAB),  ES_BSLASH_W,  ES_COMILLAS_D,        ES_PARENT_C,       ES_GUION_B,/**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, ES_TILDE_B,    _______,
    _______,  ES_CAPUCHON,ES_SUMA,      ES_EXCLAM_A,         ES_LLAVES_C,       XXXXXXX,   /**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, S(ES_CEDILLA), _______,
    _______,  _______,    _______,      _______,             XXXXXXX,           XXXXXXX,   /**/  XXXXXXX,        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,       XXXXXXX
   ),
