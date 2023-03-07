@@ -19,6 +19,7 @@
 //#include <sendstring_spanish.h>
 #include "spanish_symbols.dtsi"
 //#include "rgblight.c"
+#include "rgbmatrix.c"
 
 enum layers {
     _QWE_M,
@@ -32,8 +33,6 @@ enum layers {
     _LIGTH,
     _PASS,
 };
-
-#include "rgbmatrix.c"
 
 // Readability keycodes
 #define F_MOU LT(_MOUSE, KC_F)
